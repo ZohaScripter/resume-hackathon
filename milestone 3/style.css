@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 20px 30px;
+    background-color: #e9f5ec; /* Light mint background for freshness */
+    color: #2d3e34; /* Dark greenish-gray for readability */
+}
+
+.form {
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); /* Slightly deeper shadow for a modern look */
+    padding: 25px 35px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #276749; /* Dark green for heading */
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+fieldset {
+    border: 1px solid #a3d3a1; /* Light green border */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f1f9f3; /* Very light green for fieldset background */
+}
+
+legend {
+    font-weight: bold;
+    color: #2f5243; /* Darker green for contrast */
+    font-size: 18px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #355e48; /* Medium green for labels */
+    font-size: 16px;
+}
+
+input,
+textarea {
+    margin-top: 6px;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #a3d3a1; /* Light green border for inputs */
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease-in-out;
+    background-color: #ffffff; /* Clean white for input backgrounds */
+}
+
+input:focus,
+textarea:focus {
+    border-color: #48bb78; /* Vibrant green on focus */
+    outline: none;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    background-color: #38a169; /* Bold green button color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #2f855a; /* Darker green on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+#generate-resume {
+    max-width: 600px;
+    margin: auto;
+    padding: 25px 35px;
+    border: 2px solid #a3d3a1; /* Light green border */
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+#generate-resume h2 {
+    color: #276749; /* Dark green as used in headings */
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}

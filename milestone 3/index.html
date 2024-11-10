@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Build Your Resume</h1>
+        <p class="description">Fill out the form below to generate your customized resume instantly.</p>
+        
+        <form id="form" class="resume-form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="e.g., xyz" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="e.g., xyz@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact Number</label>
+                    <input type="tel" id="contact" placeholder="e.g., +1234567890" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Educational Background</legend>
+                <div class="form-group">
+                    <label for="education">Highest Degree or Certification</label>
+                    <textarea id="education" placeholder="e.g., Bachelor of Science in Computer Science" rows="3" required></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Professional Experience</legend>
+                <div class="form-group">
+                    <label for="experience">Relevant Work Experience</label>
+                    <textarea id="experience" placeholder="e.g., 3 years as a Front-end Developer" rows="3" required></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Skills & Expertise</legend>
+                <div class="form-group">
+                    <label for="skills">Key Skills</label>
+                    <textarea id="skills" placeholder="e.g., JavaScript, TypeScript, React" rows="3" required></textarea>
+                </div>
+            </fieldset>
+
+            <button type="submit" class="button">Generate My Resume</button>
+        </form>
+        
+        <div id="generate-resume" class="resume-output">
+            <!-- Generated resume will appear here -->
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
